@@ -1,0 +1,330 @@
+/* Global Styles */
+
+/* Set margin and padding to 0 for all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Set font family, size, and background color for body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+/* Set text decoration and color for links */
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+/* Remove default list styles for unordered lists */
+  ul {
+    list-style: none;
+  }
+/* Set container width and horizontal margin */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Added right property */
+    padding: 0 20px; /* Added padding */
+    z-index: 999;
+  }
+
+  /* Set logo styles */
+
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+/* Set navigation links styles */
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+/* Set active and hover styles for navigation links */
+  .nav-links a {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links a.active,
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  
+  /* Hero Section */
+  /* Set hero section text styles */
+  .hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .div-text {
+    max-width: 400px;
+  }
+  
+  .div-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .div-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .div-text span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    display: block;
+  }
+  /* Set social link styles */
+  
+  .social-link a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .social-link a:hover {
+    color: #007bff;
+  }
+  /* Set buttons styles */
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  
+  .div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .div-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Sections */
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    width: 70%;
+    margin-bottom: 30px;
+    color: #007bff;
+  }
+  
+  .hero .content .div-img {
+    width: 50%;
+  }
+  
+  .hero .content .div-img img {
+    width: 100%;
+    position: relative;
+    animation: img-portfile 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  /* This is a CSS keyframe animation */
+@keyframes img-portfile{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+} 
+  /* style the contact  */
+#contact {
+    background-color:#ff0b0b;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-item {
+    margin: 20px;
+  }
+  
+  .contact-item i {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .contact-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+
+
+  .hero {
+    background-color: #e52929;
+    height: 100vh;
+  }
+
+  
+  .hero nav .logo {
+    color:#ff0b0b;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .hero nav .logo span {
+    color:#007bff
+  }
+  /* add skill levels */
+  .skill-level progress {
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .skill-level progress::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 8px;
+  }
+
+  .skill-level progress::-webkit-progress-value {
+    background-color: red;
+    border-radius: 8px;
+    transition: width 2s ease-in-out;
+  }
+  /* style the footer */
+  footer {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  footer h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:#0069d9;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  footer input[type="submit"] {
+    background-color:red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  footer input[type="submit"]:hover {
+    background-color:#0069d9;
+  }
+  
